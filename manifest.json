@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "AMA OED Automated Answers",
+  "version": "0.1.3",
+  "description": "Open Source: Discontinued",
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons":
+   {
+      "128": "images/icon.png"
+   },
+  "web_accessible_resources": [
+	"content.js",
+	"main.functions.js"
+  ],
+  "content_scripts": [{
+    "js": ["jquery.min.js", "content.js"],
+    "matches": ["https://blended.amauonline.com/*"]
+  }]
+}

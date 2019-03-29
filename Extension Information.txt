@@ -1,0 +1,11 @@
+
+[EXTENSION DISCONTINUED]
+
+[Contents]
+content.js: Main required file. It inserts the answer buttons to the main blended.amauonline.com page
+main.functions.js: It contains the question and answer array, and the functions for checking the equivalent answer for a question.
+jquery.min.js: A library. Main used in wrting most of the codes.
+manifest.json: Contains all the required information and other things for chrome to recognize the extension.
+popup.html: Nonfunctional. The object that shows when you click the extension's icon.
+
+Additional details are inside each files. The extension is discontinued because I am a lil' busy right now.
